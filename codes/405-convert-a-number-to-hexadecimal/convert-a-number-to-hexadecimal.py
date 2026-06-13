@@ -2,7 +2,7 @@ class Solution:
     def toHex(self, num: int) -> str:
   
         hexa = hex(num & 0xFFFFFFFF)
-        hexadcimal = hexa[2:]
-        out = f"{hexadcimal}"
+        hexadecimal = hexa[2:]
+        out = f"{hexadecimal}"
         
         return out   
