@@ -1,4 +1,3 @@
-from collections import Counter
 class Solution(object):
     def isAnagram(self, s, t):
         """
@@ -6,4 +5,7 @@ class Solution(object):
         :type t: str
         :rtype: bool
         """
-        return Counter(s) == Counter(t)
+        if sorted(s)==sorted(t):
+            return True
+        else:
+            return False
