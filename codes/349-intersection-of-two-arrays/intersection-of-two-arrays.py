@@ -8,6 +8,8 @@ class Solution(object):
         # seta=set(nums1)
         # setb=set(nums2)
         # print(seta & setb)
+        seta=set(nums1)
+        setb=set(nums2)
 
-        result = list(set(nums1) & set(nums2))
+        result = list(seta & setb)
         return result
